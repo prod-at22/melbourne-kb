@@ -458,7 +458,7 @@ function applyFilter(){
   $("#topicbar").classList.remove("hidden");
   document.querySelectorAll("#topicbar .tab").forEach(b=>b.classList.remove("active"));
   let any=false;
-  document.querySelectorAll("details.qa").forEach(d=>{const show=d.dataset.text.includes(q);d.classList.toggle("hidden",!show);d.open=show;if(show)any=true;});
+  document.querySelectorAll("details.qa").forEach(d=>{const show=(d.dataset.text||d.textContent||"").toLowerCase().includes(q);d.classList.toggle("hidden",!show);d.open=show;if(show)any=true;});
   document.querySelectorAll("#content .block").forEach(b=>{
     const hasQA=!!b.querySelector("details.qa");
     const qaMatch=hasQA && b.querySelectorAll("details.qa:not(.hidden)").length>0;
