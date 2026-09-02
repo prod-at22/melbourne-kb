@@ -173,9 +173,9 @@
   },
   {
    "v": "air",
-   "t": "Airport Transfer + Guide (dalam pakej)",
+   "t": "Private Airport Transfer + Guide (dalam pakej)",
    "cost": "incl",
-   "lbl": "Airport Transfer + Guide"
+   "lbl": "Private Airport Transfer + Guide"
   },
   {
    "v": "ext",
@@ -197,7 +197,7 @@
    "t": "Tambah airport transfer pick up + meet &amp; greet",
    "cost": "incl",
    "perVehicleRate": "airPick",
-   "lbl": "Airport Transfer + Meet &amp; Greet",
+   "lbl": "Private Airport Transfer + Meet &amp; Greet",
    "line": "Airport transfer pick up with meet and greet"
   },
   {
@@ -205,7 +205,7 @@
    "t": "Tambah airport transfer drop off",
    "cost": "incl",
    "perVehicleRate": "airDrop",
-   "lbl": "Airport Transfer",
+   "lbl": "Private Airport Transfer",
    "line": "Airport transfer drop off"
   },
   {
@@ -257,85 +257,85 @@
  ],
  "addons": [
   [
-   "Tiket Puffing Billy Steam Train - per pax",
+   "Puffing Billy Steam Train ticket - per pax",
    190,
    95,
    "pax"
   ],
   [
-   "Tiket Enchanted Garden Adventure - per pax",
+   "Enchanted Garden Adventure ticket - per pax",
    120,
    90,
    "pax"
   ],
   [
-   "Tiket Sealife Aquarium Melbourne - per pax",
+   "Sealife Aquarium Melbourne ticket - per pax",
    175,
    175,
    "pax"
   ],
   [
-   "Tiket Maru Koala & Animal Park (Phillip Island) - per pax",
+   "Maru Koala & Animal Park ticket (Phillip Island) - per pax",
    110,
    110,
    "pax"
   ],
   [
-   "Tiket Churchill Island (Phillip Island) - per pax",
+   "Churchill Island Heritage Farm ticket (Phillip Island) - per pax",
    55,
    55,
    "pax"
   ],
   [
-   "Tiket Penguin Parade General Viewing (Phillip Island) - per pax",
+   "Penguin Parade General Viewing ticket (Phillip Island) - per pax",
    110,
    110,
    "pax"
   ],
   [
-   "Tiket Arthurs Seat Gondola return (Mornington) - per pax",
+   "Arthurs Seat Gondola return ticket (Mornington) - per pax",
    110,
    110,
    "pax"
   ],
   [
-   "Tiket Rayners Orchard - Feb hingga Dis (Dandenong) - per pax",
+   "Rayners Orchard fruit picking ticket, Feb to Dec (Dandenong) - per pax",
    215,
    215,
    "pax"
   ],
   [
-   "Cherry Fruit Picking - Dis hingga Feb (Dandenong) - per pax",
+   "Cherry fruit picking, Dec to Feb (Dandenong) - per pax",
    65,
    65,
    "pax"
   ],
   [
-   "Snow Trip resort entrance (Mt Buller / Mt Baw Baw) - per pax",
+   "Snow resort entrance, Mt Buller / Mt Baw Baw - per pax",
    85,
    85,
    "pax"
   ],
   [
-   "Hotel breakfast buffet - per pax semalam",
+   "Hotel breakfast buffet - per pax per night",
    125,
    125,
    "pax"
   ],
   [
-   "Tolak tiket Maru Koala & Animal Park - per pax",
+   "Less Maru Koala & Animal Park ticket - per pax",
    -85,
    -85,
    "pax"
   ],
   [
-   "Tolak tiket Churchill Island - per pax",
+   "Less Churchill Island Heritage Farm ticket - per pax",
    -45,
    -45,
    "pax"
   ],
   [
-   "Tolak tiket Penguin Parade General Viewing - per pax",
+   "Less Penguin Parade General Viewing ticket - per pax",
    -85,
    -85,
    "pax"
@@ -452,14 +452,16 @@
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing, whip cracking",
-      "The Nobbies - boardwalk tebing & sunset photo stop"
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing, whip cracking",
-      "The Nobbies - cliff-top boardwalks & sunset photo stop"
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
      ],
      "acc": "incl",
      "meal": "none",
@@ -474,19 +476,23 @@
       "Queen Victoria Market - souvenir, produk segar, kafe",
       "DFO South Wharf - waterfront outlet mall",
       "Flinders Street Station & Federation Square",
-      "Degraves Street & Hosier Lane - laneway kafe & street art",
+      "Degraves Street & Flinders Lane - laneway kafe & dessert hunting",
       "Princes Bridge - skyline & Sungai Yarra",
+      "Hosier Lane - lorong street art",
       "Brighton Beach Bathing Boxes - pondok pantai ikonik",
-      "Shrine of Remembrance - photo stop"
+      "Shrine of Remembrance - photo stop",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Queen Victoria Market - souvenirs, fresh produce, cafes",
       "DFO South Wharf - waterfront shopping mall",
       "Flinders Street Station & Federation Square",
-      "Degraves Street & Hosier Lane - laneway cafes & street art",
+      "Degraves Street & Flinders Lane - laneway cafe strip, coffee & dessert hunting",
       "Princes Bridge - city skyline & Yarra River",
+      "Hosier Lane - street art alley",
       "Brighton Beach Bathing Boxes - iconic beach huts",
-      "Shrine of Remembrance - photo stop"
+      "Shrine of Remembrance - photo stop",
+      "Private transport - 10 hours basis"
      ],
      "acc": "incl",
      "meal": "none",
@@ -502,8 +508,7 @@
       "ATAU pilih Add-On Private Day Tour"
      ],
      "eact": [
-      "Free & easy in City Centre (Free Tram Zone)",
-      "OR choose an Add-On Private Day Tour"
+      "Free & easy at leisure in City Centre (Free Tram Zone)"
      ],
      "acc": "incl",
      "meal": "none",
@@ -539,10 +544,12 @@
      "region": "",
      "g": "Umum",
      "act": [
-      "Itinerari tambahan mengikut permintaan customer"
+      "Itinerari tambahan mengikut permintaan customer",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
-      "Itinerary as requested by customer"
+      "Itinerary as requested by customer",
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -631,14 +638,16 @@
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
-      "The Nobbies - boardwalk tebing & sunset photo stop"
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
-      "The Nobbies - cliff-top boardwalks & sunset photo stop"
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -655,14 +664,16 @@
       "San Remo Pelican Feeding Show",
       "Churchill Island Heritage Farm",
       "The Nobbies",
-      "Penguin Parade General Viewing - Little Penguins waktu sunset"
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park",
       "San Remo Pelican Feeding Show",
       "Churchill Island Heritage Farm",
       "The Nobbies",
-      "Penguin Parade General Viewing - Little Penguins at sunset"
+      "Penguin Parade General Viewing - Little Penguins at sunset",
+      "Private transport - 12 hours basis"
      ]
     },
     {
@@ -678,13 +689,15 @@
       "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & kraf",
-      "Skyhigh Lookout - vehicle entrance termasuk"
+      "Skyhigh Lookout - vehicle entrance termasuk",
+      "Private transport - asas 8 jam"
      ],
      "eact": [
       "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & local crafts",
-      "Skyhigh Lookout - vehicle entrance included"
+      "Skyhigh Lookout - vehicle entrance included",
+      "Private transport - 8 hours basis"
      ]
     },
     {
@@ -701,14 +714,16 @@
       "Enchanted Garden Adventure (tiket berasingan)",
       "Red Hill Lavender Farm - bermusim",
       "Sorrento Ocean Beach - kolam batu semula jadi",
-      "Cape Schanck Boardwalk - sunset photo stop"
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - asas 8 jam"
      ],
      "eact": [
       "Pure Peninsula Honey - local honey farm",
       "Enchanted Garden Adventure (ticket not included)",
       "Red Hill Lavender Farm - seasonal",
       "Sorrento Ocean Beach - natural rock pool",
-      "Cape Schanck Boardwalk - sunset photo stop"
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - 8 hours basis"
      ]
     },
     {
@@ -723,12 +738,14 @@
      "act": [
       "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
       "ATAU Lake Mountain - snow play & tobogganing",
-      "Vehicle entrance & tyre snow chains termasuk"
+      "Vehicle entrance & tyre snow chains termasuk",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Mt Buller / Mt Baw Baw - skiing, snowboarding, tobogganing",
       "OR Lake Mountain - snow play & tobogganing",
-      "Vehicle entrance ticket & tyre snow chains included"
+      "Vehicle entrance ticket & tyre snow chains included",
+      "Private transport - 12 hours basis"
      ]
     },
     {
@@ -746,7 +763,8 @@
       "Apollo Bay - pekan tepi laut",
       "Maits Rest Rainforest Walk",
       "Twelve Apostles",
-      "Loch Ard Gorge"
+      "Loch Ard Gorge",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Aireys Inlet Lighthouse",
@@ -754,7 +772,8 @@
       "Apollo Bay - seaside town",
       "Maits Rest Rainforest Walk",
       "Twelve Apostles",
-      "Loch Ard Gorge"
+      "Loch Ard Gorge",
+      "Private transport - 12 hours basis"
      ]
     }
    ],
@@ -1116,7 +1135,7 @@
     }
    },
    "inclusions": [
-    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone), double or triple sharing",
+    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone) - Ibis Melbourne or similar, double or triple sharing",
     "Return private airport transfers",
     "Private transportation as per itinerary (10 hours basis per day)",
     "Malaysian driver-cum-guide based in Melbourne",
@@ -1129,6 +1148,7 @@
     "Return international flight tickets",
     "Flight luggage, in-flight meal and airport tax",
     "Hotel breakfast (not included in the Basic package)",
+    "Penguin Parade General Viewing entrance - Standard package only, unless listed as an optional activity above",
     "Australian visa fee (AUD 20, paid directly to Australian Immigration)",
     "Personal travel insurance"
    ],
@@ -1226,7 +1246,8 @@
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
       "The Nobbies - boardwalk tebing",
-      "Penguin Parade General Viewing - Little Penguins waktu sunset"
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
@@ -1234,7 +1255,8 @@
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
       "The Nobbies - cliff-top boardwalks",
-      "Penguin Parade General Viewing - world-famous Little Penguins at sunset"
+      "Penguin Parade General Viewing - world-famous Little Penguins at sunset",
+      "Private transport - 12 hours basis"
      ],
      "acc": "incl",
      "meal": "b",
@@ -1250,14 +1272,16 @@
       "Great Ocean Road Memorial Arch",
       "Apollo Bay - pekan tepi laut",
       "Twelve Apostles - mercu tanda ikonik Great Ocean Road",
-      "Loch Ard Gorge - pantai antara tebing"
+      "Loch Ard Gorge - pantai antara tebing",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Aireys Inlet Lighthouse - iconic lighthouse & coastal views",
       "Great Ocean Road Memorial Arch",
       "Apollo Bay - seaside town, fresh seafood",
       "Twelve Apostles - iconic Great Ocean Road landmark",
-      "Loch Ard Gorge - stunning beach between cliffs"
+      "Loch Ard Gorge - stunning beach between cliffs",
+      "Private transport - 12 hours basis"
      ],
      "acc": "incl",
      "meal": "b",
@@ -1273,8 +1297,7 @@
       "ATAU pilih Add-On Private Day Tour"
      ],
      "eact": [
-      "Free & easy in City Centre (Free Tram Zone)",
-      "OR choose an Add-On Private Day Tour"
+      "Free & easy at leisure in City Centre (Free Tram Zone)"
      ],
      "acc": "incl",
      "meal": "b",
@@ -1310,10 +1333,12 @@
      "region": "",
      "g": "Umum",
      "act": [
-      "Itinerari tambahan mengikut permintaan customer"
+      "Itinerari tambahan mengikut permintaan customer",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
-      "Itinerary as requested by customer"
+      "Itinerary as requested by customer",
+      "Private transport - 12 hours basis"
      ]
     },
     {
@@ -1402,14 +1427,16 @@
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
-      "The Nobbies - boardwalk tebing & sunset photo stop"
+      "The Nobbies - boardwalk tebing & sunset photo stop",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park - hand-feed kangaroos & wallabies",
       "San Remo Pelican Feeding Show",
       "Phillip Island Chocolate Factory (shop stop)",
       "Churchill Island Heritage Farm - cow-milking, sheep-shearing",
-      "The Nobbies - cliff-top boardwalks & sunset photo stop"
+      "The Nobbies - cliff-top boardwalks & sunset photo stop",
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -1426,14 +1453,16 @@
       "San Remo Pelican Feeding Show",
       "Churchill Island Heritage Farm",
       "The Nobbies",
-      "Penguin Parade General Viewing - Little Penguins waktu sunset"
+      "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Maru Koala & Animal Park",
       "San Remo Pelican Feeding Show",
       "Churchill Island Heritage Farm",
       "The Nobbies",
-      "Penguin Parade General Viewing - Little Penguins at sunset"
+      "Penguin Parade General Viewing - Little Penguins at sunset",
+      "Private transport - 12 hours basis"
      ]
     },
     {
@@ -1449,13 +1478,15 @@
       "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & kraf",
-      "Skyhigh Lookout - vehicle entrance termasuk"
+      "Skyhigh Lookout - vehicle entrance termasuk",
+      "Private transport - asas 8 jam"
      ],
      "eact": [
       "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & local crafts",
-      "Skyhigh Lookout - vehicle entrance included"
+      "Skyhigh Lookout - vehicle entrance included",
+      "Private transport - 8 hours basis"
      ]
     },
     {
@@ -1472,14 +1503,16 @@
       "Enchanted Garden Adventure (tiket berasingan)",
       "Red Hill Lavender Farm - bermusim",
       "Sorrento Ocean Beach - kolam batu semula jadi",
-      "Cape Schanck Boardwalk - sunset photo stop"
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - asas 8 jam"
      ],
      "eact": [
       "Pure Peninsula Honey - local honey farm",
       "Enchanted Garden Adventure (ticket not included)",
       "Red Hill Lavender Farm - seasonal",
       "Sorrento Ocean Beach - natural rock pool",
-      "Cape Schanck Boardwalk - sunset photo stop"
+      "Cape Schanck Boardwalk - sunset photo stop",
+      "Private transport - 8 hours basis"
      ]
     },
     {
@@ -1494,12 +1527,14 @@
      "act": [
       "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
       "ATAU Lake Mountain - snow play & tobogganing",
-      "Vehicle entrance & tyre snow chains termasuk"
+      "Vehicle entrance & tyre snow chains termasuk",
+      "Private transport - asas 12 jam"
      ],
      "eact": [
       "Mt Buller / Mt Baw Baw - skiing, snowboarding, tobogganing",
       "OR Lake Mountain - snow play & tobogganing",
-      "Vehicle entrance ticket & tyre snow chains included"
+      "Vehicle entrance ticket & tyre snow chains included",
+      "Private transport - 12 hours basis"
      ]
     },
     {
@@ -1515,19 +1550,23 @@
       "Queen Victoria Market",
       "DFO South Wharf",
       "Flinders Street Station & Federation Square",
-      "Degraves Street & Hosier Lane",
+      "Degraves Street & Flinders Lane - laneway kafe",
       "Princes Bridge",
+      "Hosier Lane - street art",
       "Brighton Beach Bathing Boxes",
-      "Shrine of Remembrance"
+      "Shrine of Remembrance",
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Queen Victoria Market",
       "DFO South Wharf",
       "Flinders Street Station & Federation Square",
-      "Degraves Street & Hosier Lane",
+      "Degraves Street & Flinders Lane - laneway cafe strip",
       "Princes Bridge",
+      "Hosier Lane - street art alley",
       "Brighton Beach Bathing Boxes",
-      "Shrine of Remembrance"
+      "Shrine of Remembrance",
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -1542,12 +1581,14 @@
      "act": [
       "Separuh senarai city tour - customer pilih",
       "Queen Victoria Market atau DFO South Wharf",
-      "Federation Square & laneway kafe"
+      "Federation Square & laneway kafe",
+      "Private transport - asas 5 jam"
      ],
      "eact": [
-      "Covers half of the city tour list - customer to choose",
+      "Selected Melbourne city highlights",
       "Queen Victoria Market or DFO South Wharf",
-      "Federation Square & laneway cafes"
+      "Federation Square & laneway cafes",
+      "Private transport - 5 hours basis"
      ]
     }
    ],
@@ -1921,7 +1962,7 @@
     }
    },
    "inclusions": [
-    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone), double or triple sharing",
+    "{nights} nights accommodation at 3-Star Hotel in Melbourne City Centre (Free Tram Zone) - Ibis Melbourne or similar, double or triple sharing",
     "Daily hotel breakfast",
     "Return private airport transfers",
     "Private transportation as per itinerary (12 hours basis per day)",

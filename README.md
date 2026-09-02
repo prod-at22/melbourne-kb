@@ -64,6 +64,33 @@ kawasan kecuali Phillip Island (lihat jadual di bawah).
 
 ---
 
+## ⚠ Dua soalan harga yang masih terbuka
+
+Kedua-dua ini **tidak** diubah — ia perlu keputusan PO.
+
+**1. Surcaj tarikh acara khas (Christmas / New Year / CNY) tidak dikira.**
+Katalog p1 tulis *"Special Event Date Surcharge (e.g. Christmas/New Year/Chinese
+New Year) not included – please enquire prior booking"* tanpa jumlah. Jadi quotation
+untuk departure 24 Dis hanya kenakan peak RM 125/pax/malam, dan ayat tentang acara
+khas hanya muncul dalam perenggan *Validity* di bawah. **Risiko: quote terkurang
+harga untuk tarikh Christmas/NY.** Kalau PO ada jumlahnya, tambah sebagai
+`extraSurcharge` dengan `dateIn` tetingkap Christmas/NY — kalkulator terus kira.
+
+**2. Peak dikenakan dua kali pada malam tambahan?**
+`ext.night` ada dua nilai — `normal: 300` dan `peak: 450`. Bila trip jatuh dalam
+tetingkap peak, enjin kenakan RM 450 untuk malam tambahan itu **dan** juga peak
+RM 125/pax/malam pada malam yang sama (contoh: 5 malam peak = RM 625 + malam
+tambahan RM 450). Jadi malam tambahan naik dua kali: +150 (kadar peak) dan +125
+(surcaj peak).
+
+Kalau RM 450 itu memang bermaksud *kos penuh satu malam peak*, maka surcaj RM 125
+tidak patut dikenakan lagi pada malam itu — betulkan dengan set `ext.night.peak`
+kepada `300` (sama seperti normal), supaya hanya surcaj peak katalog yang terpakai.
+Kalau RM 450 bermaksud *kos asas sebelum surcaj*, biarkan seperti sekarang.
+Kadar 300/450 tiada sumber, jadi hanya PO boleh tentukan.
+
+---
+
 ## Di mana benda yang biasa diubah
 
 ### Harga katalog (tier per pax)
