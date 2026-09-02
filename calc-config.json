@@ -12,6 +12,11 @@
  "intro": "Isi pax dan tarikh &mdash; peak season RM 125/pax/malam dan late booking dikira sendiri. Transport ikut jam: Basic 10 jam/hari, Standard 12 jam/hari; lebih masa AUD 50/jam dibayar tunai kepada driver. Pilih blok itinerary supaya kos hari tambahan ikut kawasan.",
  "tabAfter": "custom",
  "blockBefore": "surcharge",
+ "hideGeneric": [
+  "ext",
+  "cus",
+  "fe"
+ ],
  "autoAddonQty": true,
  "extDefaults": {
   "acc": "extra",
@@ -115,31 +120,67 @@
   },
   {
    "v": "b",
-   "t": "Breakfast (termasuk pakej)",
+   "t": "Breakfast (termasuk pakej Standard)",
    "l": 0,
    "d": 0,
    "lbl": "Hotel Breakfast"
   },
   {
    "v": "bl",
-   "t": "Breakfast &amp; Lunch",
+   "t": "Breakfast (termasuk pakej Standard) &amp; Lunch",
    "l": 1,
    "d": 0,
    "lbl": "Hotel Breakfast, Lunch"
   },
   {
    "v": "bd",
-   "t": "Breakfast &amp; Dinner",
+   "t": "Breakfast (termasuk pakej Standard) &amp; Dinner",
    "l": 0,
    "d": 1,
    "lbl": "Hotel Breakfast, Dinner"
   },
   {
    "v": "bld",
-   "t": "Breakfast, Lunch &amp; Dinner",
+   "t": "Breakfast (termasuk pakej Standard), Lunch &amp; Dinner",
    "l": 1,
    "d": 1,
    "lbl": "Hotel Breakfast, Lunch, Dinner"
+  },
+  {
+   "v": "badd",
+   "t": "Breakfast buffet (tambahan)",
+   "l": 0,
+   "d": 0,
+   "lbl": "Hotel Breakfast",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddl",
+   "t": "Breakfast buffet (tambahan) &amp; Lunch",
+   "l": 1,
+   "d": 0,
+   "lbl": "Hotel Breakfast, Lunch",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddd",
+   "t": "Breakfast buffet (tambahan) &amp; Dinner",
+   "l": 0,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Dinner",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
+  },
+  {
+   "v": "baddld",
+   "t": "Breakfast buffet (tambahan), Lunch &amp; Dinner",
+   "l": 1,
+   "d": 1,
+   "lbl": "Hotel Breakfast, Lunch, Dinner",
+   "perPaxRate": "bfAdd",
+   "line": "Hotel breakfast buffet"
   },
   {
    "v": "ld",
@@ -314,12 +355,6 @@
    "Snow resort entrance, Mt Buller / Mt Baw Baw - per pax",
    85,
    85,
-   "pax"
-  ],
-  [
-   "Hotel breakfast buffet - per pax per night",
-   125,
-   125,
    "pax"
   ],
   [
@@ -536,20 +571,18 @@
    "library": [
     {
      "v": "ext",
-     "t": "Hari tambahan (tulis sendiri)",
-     "en": "EXTENSION DAY",
+     "t": "Hari tambahan - pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
      "acc": "extra",
      "meal": "none",
      "trp": "ext",
      "region": "",
      "g": "Umum",
      "act": [
-      "Itinerari tambahan mengikut permintaan customer",
-      "Private transport - asas 10 jam"
+      "Pilih satu blok Add-on day tour untuk hari ini"
      ],
      "eact": [
-      "Itinerary as requested by customer",
-      "Private transport - 10 hours basis"
+      "Additional day - itinerary to be confirmed"
      ]
     },
     {
@@ -992,25 +1025,19 @@
        }
       ]
      },
+     "bfAdd": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
      "day": {
       "_default": [
        {
         "from": 2,
-        "to": 3,
-        "normal": 700
-       },
-       {
-        "from": 4,
-        "to": 6,
-        "normal": 1000
-       },
-       {
-        "from": 7,
-        "to": 10,
-        "normal": 1500
-       },
-       {
-        "from": 11,
         "to": 18,
         "normal": null
        }
@@ -1325,20 +1352,18 @@
    "library": [
     {
      "v": "ext",
-     "t": "Hari tambahan (tulis sendiri)",
-     "en": "EXTENSION DAY",
+     "t": "Hari tambahan - pilih blok day tour di bawah",
+     "en": "ADDITIONAL DAY",
      "acc": "extra",
      "meal": "b",
      "trp": "ext",
      "region": "",
      "g": "Umum",
      "act": [
-      "Itinerari tambahan mengikut permintaan customer",
-      "Private transport - asas 12 jam"
+      "Pilih satu blok Add-on day tour untuk hari ini"
      ],
      "eact": [
-      "Itinerary as requested by customer",
-      "Private transport - 12 hours basis"
+      "Additional day - itinerary to be confirmed"
      ]
     },
     {
@@ -1807,25 +1832,19 @@
        }
       ]
      },
+     "bfAdd": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": 125
+       }
+      ]
+     },
      "day": {
       "_default": [
        {
         "from": 2,
-        "to": 3,
-        "normal": 700
-       },
-       {
-        "from": 4,
-        "to": 6,
-        "normal": 1000
-       },
-       {
-        "from": 7,
-        "to": 10,
-        "normal": 1500
-       },
-       {
-        "from": 11,
         "to": 18,
         "normal": null
        }

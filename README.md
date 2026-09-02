@@ -54,7 +54,6 @@ betulkan** sebelum dipakai untuk quote sebenar.
 | Tolak malam pakej | `nightShort` | −200 per pax |
 | Surcaj travel date 2027 | `extraSurcharge` | RM 100 per pax (1 Jan – 30 Jun 2027) |
 | Lunch / dinner tambahan | `meals` | RM 100 per pax per hidangan |
-| Hotel breakfast buffet (add-on) | `addons` | RM 125 per pax |
 | Tolak tiket Maru / Churchill / Penguin | `addons` | −85 / −45 / −85 per pax |
 
 Kadar **bersumber** (jangan ubah tanpa katalog baharu): tier semua varian, peak
@@ -88,6 +87,45 @@ tidak patut dikenakan lagi pada malam itu — betulkan dengan set `ext.night.pea
 kepada `300` (sama seperti normal), supaya hanya surcaj peak katalog yang terpakai.
 Kalau RM 450 bermaksud *kos asas sebelum surcaj*, biarkan seperti sekarang.
 Kadar 300/450 tiada sumber, jadi hanya PO boleh tentukan.
+
+---
+
+## Breakfast
+
+Breakfast ialah pilihan dalam **dropdown Meals** setiap hari (bukan optional
+activity), jadi ia dikira **per pax per malam** dan ikut bilangan malam sebenar.
+
+| Pilihan | Kos | Guna bila |
+|---|---|---|
+| `Breakfast (termasuk pakej Standard)` | RM 0 | hari pakej Standard &mdash; breakfast sudah dalam harga katalog |
+| `Breakfast buffet (tambahan)` | **RM 125 per pax per malam** | pakej **Basic** (Basic tiada breakfast), dan malam extension Standard |
+
+Kadar diubah di satu tempat sahaja: `variants[].ext.rates.bfAdd`. Ada juga
+gabungan dengan Lunch / Dinner untuk kedua-dua keluarga.
+
+Basic **tiada** breakfast dalam katalog, jadi untuk Basic guna sentiasa
+*Breakfast buffet (tambahan)*. Pilihan *termasuk pakej Standard* memang RM 0 &mdash;
+ia untuk Standard.
+
+---
+
+## Hari tambahan &mdash; kenapa ada cip merah `kadar?`
+
+Entri **Extension** dan **Custom (tulis sendiri)** sudah **dibuang** dari dropdown
+Itinerary (`hideGeneric`), sebab kos hari generik belum pasti. Generik **Free & Easy**
+enjin juga dibuang &mdash; ia bagi breakfast percuma dan melepaskan hari berpandu
+tanpa tolakan; guna *Free & Easy - tolak driving guide dari katalog* atau
+*Free & Easy + transport standby* yang sudah ada dalam pustaka.
+
+Bila TC tekan **+ Tambah Hari**, hari itu bermula sebagai *Hari tambahan - pilih
+blok day tour di bawah*: malam tambahan dikenakan, tetapi transport papar cip merah
+`kadar?` sampai TC pilih satu blok day tour yang ada kadar katalog (Dandenong,
+Mornington, Great Ocean Road, Snow, City Tour, Phillip Island).
+
+Kalau nak hidupkan harga hari generik, isi `variants[].ext.rates.day._default`
+(`"normal": null` &rarr; nombor). Rujukan tab Add-Ons R&D: Private Day Tour
+5-seater RM 700, 7/8-seater RM 1,000, 12-seater RM 1,500 sehari &mdash; **belum
+disahkan**, sebab itu ia dibiarkan kosong.
 
 ---
 
