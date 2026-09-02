@@ -31,15 +31,47 @@ dan papar notis merah di atas tab Simple Calculator. Kalau notis itu keluar, mak
 
 ---
 
-## ⚠ Kadar yang PERLU PO sahkan
+## Sumber setiap kadar
 
-Nombor di bawah **tiada sumber** dalam katalog PT Melbourne Basic/Standard 2026 mahupun
-dalam `PT_MEL_RD_reformatted.xlsx`. Melbourne tiada ProdReq, jadi tiada dokumen ketiga
-untuk dirujuk. Ia dikekalkan daripada versi kalkulator sebelum ini — **sahkan atau
-betulkan** sebelum dipakai untuk quote sebenar.
+Semua kadar transport, accommodation, meals dan entrance datang dari tab
+**Rate Card Operasi** dalam KB (`Transport + Driver`, `Accommodation`, `Meals`,
+`Entrance / Activity`). Rate card itu sendiri menyatakan ia untuk kalkulator:
+*"Kalkulator pilih kelas kenderaan dan buat pembahagian ini automatik."*
 
-| Kadar | Kunci dalam `calc-config.json` | Nilai sekarang |
+Band kelas kenderaan rate card:
+
+| Band | Pax | Nota |
 |---|---|---|
+| 5 Seater | 2&ndash;3 | |
+| 8 Seater | 4&ndash;6 | |
+| 12 Seater | 7&ndash;9 | |
+| 21 Seater | 10&ndash;18 | rate card tulis **Sebut harga** &rarr; kalkulator papar cip merah `kadar?` |
+
+Kadar tier pakej, peak RM 125/pax/malam, single supplement RM 2,500, infant
+RM 1,000, upgrade 4&#9733; RM 125/pax/malam dan late booking RM 50 datang dari
+**katalog** + tab Surcharge.
+
+### Percanggahan yang masih terbuka
+
+| Item | Katalog | Rate Card / KB | Dipakai kalkulator |
+|---|---|---|---|
+| Mornington Peninsula | 8 jam, RM 1,600 rata | **10 jam**, RM 2,550 / 2,950 / 3,500 | rate card |
+| Puffing Billy & Dandenong | 8 jam, RM 1,500 rata | **10 jam**, RM 2,450 / 2,850 / 3,400 | rate card |
+| Great Ocean Road | RM 2,800 rata | RM 3,350 / 3,750 / 4,300 | rate card |
+| Winter Snow Trip | RM 3,200 rata | RM 3,500 / 3,900 / 4,450 | rate card |
+| City Tour full-day | RM 1,500 rata | RM 2,300 / 2,700 / 3,250 | rate card |
+| City Tour half-day | RM 800 rata | RM 1,450 / 1,750 / 2,200 | rate card |
+| Late booking | p5: tiada jumlah | Surcharge KB: RM 50/**pax** &middot; R&D sheet: RM 50/**booking** | per booking |
+
+Keputusan PO 2 Sep 2026: **rate card** untuk transport (satu sumber, konsisten
+dengan Phillip Island / airport transfer / baris tolak yang memang sudah ikut
+rate card), dan late booking kekal **per booking**.
+
+**Katalog p3 masih tersiar harga rata yang lebih rendah** (contoh GOR RM 2,800
+berbanding RM 3,350). Kalau katalog itu yang betul untuk customer, katalog perlu
+dikemas kini &mdash; atau beritahu saya untuk tukar balik.
+
+---|---|---|
 | Airport transfer pick up tambahan | `airPick` | 1400 / 1700 / 2150 (2–3 / 4–6 / 7–9 pax) |
 | Airport transfer drop off tambahan | `airDrop` | 1300 / 1600 / 2050 |
 | Tolak airport transfer pick up | `airPickCut` | −1100 / −1300 / −1700 |

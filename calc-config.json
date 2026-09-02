@@ -98,11 +98,19 @@
   },
   {
    "v": "noht",
-   "t": "Tanpa hotel &ndash; tolak malam dari katalog",
+   "t": "Tanpa hotel &ndash; tolak malam 3 bintang dari katalog",
    "cost": "zero",
    "perPaxRate": "nightShort",
    "dropsNight": true,
    "line": "Package night removed"
+  },
+  {
+   "v": "noht4",
+   "t": "Tanpa hotel &ndash; tolak malam 4 bintang dari katalog",
+   "cost": "zero",
+   "perPaxRate": "nightShort4",
+   "dropsNight": true,
+   "line": "Package night removed (4-Star)"
   },
   {
    "v": "none",
@@ -380,22 +388,27 @@
   {
    "from": 2,
    "to": 3,
-   "text": "2&ndash;3 pax: kenderaan 5-seater (WAE B2B AUD 140/hari)"
+   "text": "2&ndash;3 pax: 5-seater car &mdash; kadar transport band 5 Seater"
   },
   {
    "from": 4,
    "to": 6,
-   "text": "4&ndash;6 pax: kenderaan 7/8-seater (WAE B2B AUD 200/hari)"
+   "text": "4&ndash;6 pax: 7/8-seater van &mdash; kadar transport band 8 Seater"
   },
   {
    "from": 7,
-   "to": 10,
-   "text": "7&ndash;10 pax: kenderaan 12-seater (WAE B2B AUD 300/hari) &mdash; had quote WAE"
+   "to": 9,
+   "text": "7&ndash;9 pax: 12-seater van &mdash; kadar transport band 12 Seater"
   },
   {
-   "from": 11,
+   "from": 10,
+   "to": 18,
+   "text": "10&ndash;18 pax: 21-seater (termasuk bus driver). Rate card tulis <b>Sebut harga</b> &mdash; kadar transport muncul sebagai <i>kadar?</i>, minta sebut harga operasi."
+  },
+  {
+   "from": 19,
    "to": 99999,
-   "text": "11 pax ke atas: WAE hanya quote sehingga 10 pax. Perlu kenderaan <b>dan</b> driver-cum-guide kedua &mdash; kadar hari extension 11+ belum disahkan, jadi ia muncul sebagai <i>kadar?</i>. Quote manual dengan WAE."
+   "text": "19 pax ke atas: melebihi 21-seater &mdash; perlu kenderaan tambahan, sebut harga group besar."
   }
  ],
  "validity": "<b>Validity of Quotation:</b> This quotation is valid for 24 hours from the date of issue and is subject to hotel/room availability as no space has been secured. A deposit of RM 1,000 per pax is required upon confirmation, with full payment due 45 days before the departure date. Private transportation and driver-cum-guide are based on the total hours stated in the itinerary; AUD 50 per extra hour is payable in cash to the driver. Itinerary, price and flight schedule are subject to change (weather, traffic, safety). Final itinerary and hotel confirmation 14 days before the trip. Special event date surcharge (Christmas, New Year, Chinese New Year) is not included - please enquire prior to booking. Ground arrangement and tipping only - international flight tickets are not included.",
@@ -612,7 +625,8 @@
      "g": "Umum",
      "act": [
       "Free & easy di City Centre (Free Tram Zone)",
-      "Transport standby atas permintaan"
+      "Transport standby atas permintaan",
+      "Hari F&E selang sehari: WAJIB caj standby (5, 8, 12 seater sahaja)"
      ],
      "eact": [
       "Free & easy in City Centre (Free Tram Zone)",
@@ -698,6 +712,8 @@
       "Churchill Island Heritage Farm",
       "The Nobbies",
       "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Penguin Parade WAJIB pakej 12 jam, bukan 10 jam",
+      "Availability susah - re-confirm selepas visa lulus & full deposit",
       "Private transport - asas 12 jam"
      ],
      "eact": [
@@ -711,7 +727,7 @@
     },
     {
      "v": "dand",
-     "t": "Puffing Billy & Dandenong Ranges (8 jam)",
+     "t": "Puffing Billy & Dandenong Ranges (10 jam)",
      "en": "PUFFING BILLY & DANDENONG RANGES",
      "acc": "incl",
      "meal": "none",
@@ -720,22 +736,23 @@
      "g": "Add-on day tour",
      "act": [
       "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
+      "Tiket Puffing Billy availability sangat susah - re-confirm awal",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & kraf",
       "Skyhigh Lookout - vehicle entrance termasuk",
-      "Private transport - asas 8 jam"
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & local crafts",
       "Skyhigh Lookout - vehicle entrance included",
-      "Private transport - 8 hours basis"
+      "Private transport - 10 hours basis"
      ]
     },
     {
      "v": "morn",
-     "t": "Mornington Peninsula (8 jam)",
+     "t": "Mornington Peninsula (10 jam)",
      "en": "MORNINGTON PENINSULA",
      "acc": "incl",
      "meal": "none",
@@ -748,7 +765,7 @@
       "Red Hill Lavender Farm - bermusim",
       "Sorrento Ocean Beach - kolam batu semula jadi",
       "Cape Schanck Boardwalk - sunset photo stop",
-      "Private transport - asas 8 jam"
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Pure Peninsula Honey - local honey farm",
@@ -756,7 +773,7 @@
       "Red Hill Lavender Farm - seasonal",
       "Sorrento Ocean Beach - natural rock pool",
       "Cape Schanck Boardwalk - sunset photo stop",
-      "Private transport - 8 hours basis"
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -772,6 +789,7 @@
       "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
       "ATAU Lake Mountain - snow play & tobogganing",
       "Vehicle entrance & tyre snow chains termasuk",
+      "WAJIB tambah add-on Snow Trip resort entrance RM85 per pax",
       "Private transport - asas 12 jam"
      ],
      "eact": [
@@ -1016,6 +1034,15 @@
        }
       ]
      },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -350
+       }
+      ]
+     },
      "up4": {
       "_default": [
        {
@@ -1067,11 +1094,21 @@
       "[Mornington]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 1600
+        "to": 3,
+        "normal": 2550
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 2950
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3500
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1079,11 +1116,21 @@
       "[Dandenong]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 1500
+        "to": 3,
+        "normal": 2450
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 2850
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3400
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1091,11 +1138,21 @@
       "[Snow]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 3200
+        "to": 3,
+        "normal": 3500
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 3900
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4450
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1103,11 +1160,21 @@
       "[Great Ocean Road]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 2800
+        "to": 3,
+        "normal": 3350
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 3750
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4300
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1393,7 +1460,8 @@
      "g": "Umum",
      "act": [
       "Free & easy di City Centre (Free Tram Zone)",
-      "Transport standby atas permintaan"
+      "Transport standby atas permintaan",
+      "Hari F&E selang sehari: WAJIB caj standby (5, 8, 12 seater sahaja)"
      ],
      "eact": [
       "Free & easy in City Centre (Free Tram Zone)",
@@ -1479,6 +1547,8 @@
       "Churchill Island Heritage Farm",
       "The Nobbies",
       "Penguin Parade General Viewing - Little Penguins waktu sunset",
+      "Penguin Parade WAJIB pakej 12 jam, bukan 10 jam",
+      "Availability susah - re-confirm selepas visa lulus & full deposit",
       "Private transport - asas 12 jam"
      ],
      "eact": [
@@ -1492,7 +1562,7 @@
     },
     {
      "v": "dand",
-     "t": "Puffing Billy & Dandenong Ranges (8 jam)",
+     "t": "Puffing Billy & Dandenong Ranges (10 jam)",
      "en": "PUFFING BILLY & DANDENONG RANGES",
      "acc": "incl",
      "meal": "b",
@@ -1501,22 +1571,23 @@
      "g": "Add-on day tour",
      "act": [
       "Puffing Billy Steam Train - Belgrave ke Lakeside (tiket berasingan)",
+      "Tiket Puffing Billy availability sangat susah - re-confirm awal",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & kraf",
       "Skyhigh Lookout - vehicle entrance termasuk",
-      "Private transport - asas 8 jam"
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Puffing Billy Steam Train - Belgrave to Lakeside (ticket not included)",
       "Dandenong / Royal Botanic Garden",
       "Sassafras Village - Devonshire tea & local crafts",
       "Skyhigh Lookout - vehicle entrance included",
-      "Private transport - 8 hours basis"
+      "Private transport - 10 hours basis"
      ]
     },
     {
      "v": "morn",
-     "t": "Mornington Peninsula (8 jam)",
+     "t": "Mornington Peninsula (10 jam)",
      "en": "MORNINGTON PENINSULA",
      "acc": "incl",
      "meal": "b",
@@ -1529,7 +1600,7 @@
       "Red Hill Lavender Farm - bermusim",
       "Sorrento Ocean Beach - kolam batu semula jadi",
       "Cape Schanck Boardwalk - sunset photo stop",
-      "Private transport - asas 8 jam"
+      "Private transport - asas 10 jam"
      ],
      "eact": [
       "Pure Peninsula Honey - local honey farm",
@@ -1537,7 +1608,7 @@
       "Red Hill Lavender Farm - seasonal",
       "Sorrento Ocean Beach - natural rock pool",
       "Cape Schanck Boardwalk - sunset photo stop",
-      "Private transport - 8 hours basis"
+      "Private transport - 10 hours basis"
      ]
     },
     {
@@ -1553,6 +1624,7 @@
       "Mt Buller / Mt Baw Baw - ski, snowboard, tobogganing",
       "ATAU Lake Mountain - snow play & tobogganing",
       "Vehicle entrance & tyre snow chains termasuk",
+      "WAJIB tambah add-on Snow Trip resort entrance RM85 per pax",
       "Private transport - asas 12 jam"
      ],
      "eact": [
@@ -1570,7 +1642,7 @@
      "meal": "b",
      "trp": "ext",
      "region": "[Melbourne City]",
-     "g": "Melbourne - bandar",
+     "g": "Add-on day tour",
      "act": [
       "Queen Victoria Market",
       "DFO South Wharf",
@@ -1602,7 +1674,7 @@
      "meal": "b",
      "trp": "ext",
      "region": "[Melbourne City Half]",
-     "g": "Melbourne - bandar",
+     "g": "Add-on day tour",
      "act": [
       "Separuh senarai city tour - customer pilih",
       "Queen Victoria Market atau DFO South Wharf",
@@ -1823,6 +1895,15 @@
        }
       ]
      },
+     "nightShort4": {
+      "_default": [
+       {
+        "from": 2,
+        "to": 18,
+        "normal": -350
+       }
+      ]
+     },
      "up4": {
       "_default": [
        {
@@ -1874,11 +1955,21 @@
       "[Mornington]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 1600
+        "to": 3,
+        "normal": 2550
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 2950
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3500
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1886,11 +1977,21 @@
       "[Dandenong]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 1500
+        "to": 3,
+        "normal": 2450
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 2850
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3400
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1898,11 +1999,21 @@
       "[Snow]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 3200
+        "to": 3,
+        "normal": 3500
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 3900
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 4450
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1910,11 +2021,21 @@
       "[Melbourne City]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 1500
+        "to": 3,
+        "normal": 2300
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 2700
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 3250
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
@@ -1922,11 +2043,21 @@
       "[Melbourne City Half]": [
        {
         "from": 2,
-        "to": 10,
-        "normal": 800
+        "to": 3,
+        "normal": 1450
        },
        {
-        "from": 11,
+        "from": 4,
+        "to": 6,
+        "normal": 1750
+       },
+       {
+        "from": 7,
+        "to": 9,
+        "normal": 2200
+       },
+       {
+        "from": 10,
         "to": 18,
         "normal": null
        }
